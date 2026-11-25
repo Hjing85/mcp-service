@@ -1,0 +1,12 @@
+{
+  "db_type": "oracle",
+  "driver": "oracledb",
+  "host": "127.0.0.1",
+  "port": 1521,
+  "service_name": "数据库名",
+  "user": "数据库账号",
+  "password": "数据库密码",
+  "min_pool": 1,
+  "max_pool": 5,
+  "comment": "本地 Oracle 实例 espsoap；oracledb 走瘦客户端(thin)模式，无需安装 Oracle Client"
+}

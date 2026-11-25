@@ -1,0 +1,12 @@
+{
+  "db_type": "mysql",
+  "driver": "pymysql",
+  "host": "127.0.0.1",
+  "port": 3306,
+  "database": "数据库名",
+  "user": "root",
+  "password": "请填写实际密码",
+  "charset": "utf8mb4",
+  "connect_timeout": 10,
+  "comment": "MySQL 规范配置模板：按实际环境填写 host/port/database/user/password"
+}

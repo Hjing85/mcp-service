@@ -1,0 +1,11 @@
+{
+  "db_type": "dm",
+  "driver": "dmPython",
+  "host": "127.0.0.1",
+  "port": 5236,
+  "user": "SYSDBA",
+  "password": "请填写实际密码",
+  "schema": "数据库名",
+  "login_timeout": 10,
+  "comment": "达梦(DM8) 规范配置模板：需安装 dmPython 驱动；schema 为默认模式，按实际环境填写"
+}

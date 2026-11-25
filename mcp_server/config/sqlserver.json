@@ -1,0 +1,13 @@
+{
+  "db_type": "sqlserver",
+  "driver": "pymssql",
+  "host": "127.0.0.1",
+  "port": 1433,
+  "database": "数据库名",
+  "user": "sa",
+  "password": "数据库密码",
+  "charset": "UTF-8",
+  "login_timeout": 10,
+  "timeout": 30,
+  "comment": "本地 SQL Server 实例 EspMes"
+}

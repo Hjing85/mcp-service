@@ -1,0 +1,104 @@
+{
+  "providers": {
+    "openai": {
+      "id": "openai",
+      "type": "openai_compatible",
+      "base_url": "https://api.openai.com/v1",
+      "model": "gpt-4o",
+      "api_key": "",
+      "api_key_env": "OPENAI_API_KEY",
+      "note": "预置模板：openai",
+      "updated_at": "2026-11-23 17:10:47"
+    },
+    "claude": {
+      "id": "claude",
+      "type": "anthropic",
+      "base_url": "",
+      "model": "claude-sonnet-4-20250514",
+      "api_key": "",
+      "api_key_env": "ANTHROPIC_API_KEY",
+      "note": "预置模板：claude",
+      "updated_at": "2026-11-23 17:10:47"
+    },
+    "deepseek": {
+      "id": "deepseek",
+      "type": "openai_compatible",
+      "base_url": "https://api.deepseek.com/chat/completions",
+      "model": "deepseek-chat",
+      "api_key": "sk-f9787c40cc2240a9abb2b4f956b1e460",
+      "api_key_env": "",
+      "note": "deepseek",
+      "updated_at": "2026-11-23 18:30:08"
+    },
+    "qwen": {
+      "id": "qwen",
+      "type": "openai_compatible",
+      "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "model": "qwq-32",
+      "api_key": "sk-8fc114454d6f4bd880f41af9b8ba5ce8",
+      "api_key_env": "",
+      "note": "通义千问",
+      "updated_at": "2026-11-23 18:31:25"
+    },
+    "kimi": {
+      "id": "kimi",
+      "type": "openai_compatible",
+      "base_url": "https://api.moonshot.cn/v1",
+      "model": "moonshot-v1-8k",
+      "api_key": "",
+      "api_key_env": "MOONSHOT_API_KEY",
+      "note": "预置模板：kimi",
+      "updated_at": "2026-11-23 17:10:47"
+    },
+    "glm": {
+      "id": "glm",
+      "type": "openai_compatible",
+      "base_url": "https://open.bigmodel.cn/api/paas/v4",
+      "model": "glm-4-plus",
+      "api_key": "",
+      "api_key_env": "ZHIPU_API_KEY",
+      "note": "预置模板：glm",
+      "updated_at": "2026-11-23 17:10:47"
+    },
+    "doubao": {
+      "id": "doubao",
+      "type": "openai_compatible",
+      "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+      "model": "doubao-pro-32k",
+      "api_key": "",
+      "api_key_env": "ARK_API_KEY",
+      "note": "预置模板：doubao",
+      "updated_at": "2026-11-23 17:10:47"
+    },
+    "hunyuan": {
+      "id": "hunyuan",
+      "type": "openai_compatible",
+      "base_url": "https://api.hunyuan.cloud.tencent.com/v1",
+      "model": "hunyuan-turbos-latest",
+      "api_key": "",
+      "api_key_env": "HUNYUAN_API_KEY",
+      "note": "预置模板：hunyuan",
+      "updated_at": "2026-11-23 17:10:47"
+    },
+    "minimax": {
+      "id": "minimax",
+      "type": "openai_compatible",
+      "base_url": "https://api.minimaxi.com/v1",
+      "model": "MiniMax-Text-01",
+      "api_key": "",
+      "api_key_env": "MINIMAX_API_KEY",
+      "note": "预置模板：minimax",
+      "updated_at": "2026-11-23 17:10:47"
+    },
+    "ernie": {
+      "id": "ernie",
+      "type": "openai_compatible",
+      "base_url": "https://qianfan.baidubce.com/v2",
+      "model": "ernie-4.0-8k-latest",
+      "api_key": "",
+      "api_key_env": "ERNIE_API_KEY",
+      "note": "预置模板：ernie",
+      "updated_at": "2026-11-23 17:10:47"
+    }
+  }
+}

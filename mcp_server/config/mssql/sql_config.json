@@ -1,0 +1,7 @@
+{
+    "demo_select": "SELECT TOP (:top) * FROM dbo.ESP_SOAP_LOG WHERE status = :status ORDER BY id DESC",
+    "demo_insert": "INSERT INTO dbo.ESP_SOAP_LOG (name, status, created_at) VALUES (:name, :status, GETDATE())",
+    "demo_update": "UPDATE dbo.ESP_SOAP_LOG SET status = :status WHERE id = :id",
+    "demo_delete": "DELETE FROM dbo.ESP_SOAP_LOG WHERE id = :id",
+    "material_tag_print_query": "SELECT Id,TagNo,MaterialCode,SkuName,Brand,Spec,Material,Count,Unit,BatchNo,Supplier,WarehouseCode,LocationCode,ReceiveDate,PrintCount,LastPrintAt,PrintStatus FROM mat_material_tag WHERE IsDeleted = 0 AND TagNo LIKE :TagNo AND LastPrintAt >= :StartTime AND LastPrintAt < :EndTime AND PrintStatus = :Status ORDER BY LastPrintAt DESC"
+}

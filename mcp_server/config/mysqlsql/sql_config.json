@@ -1,0 +1,7 @@
+{
+    "demo_select": "SELECT * FROM esp_soap_log WHERE status = :status ORDER BY id DESC LIMIT :top",
+    "demo_insert": "INSERT INTO esp_soap_log (name, status, created_at) VALUES (:name, :status, NOW())",
+    "demo_update": "UPDATE esp_soap_log SET status = :status WHERE id = :id",
+    "demo_delete": "DELETE FROM esp_soap_log WHERE id = :id",
+    "material_tag_print_query": "SELECT Id,TagNo,RawMaterialId,MaterialCode,SkuName,Brand,Spec,Material,Count,Unit,BatchNo,Supplier,WarehouseCode,LocationCode,ReceiveDate,PrintStatus FROM mat_material_tag WHERE TagNo LIKE :TagNo"
+}

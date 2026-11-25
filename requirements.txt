@@ -1,0 +1,15 @@
+mcp>=1.9.0,<2.0.0
+openai>=1.40.0
+anthropic>=0.40.0
+httpx>=0.27.0
+pyyaml>=6.0.1
+uvicorn>=0.30.0
+fastapi>=0.110.0
+python-dotenv>=1.0.1
+pydantic>=2.7.0
+
+# ---- 数据库驱动（按实际使用的数据库安装即可）----
+pymssql>=2.2.10        # SQL Server
+oracledb>=2.4.0        # Oracle（瘦客户端，免装 Oracle Client）
+pymysql>=1.1.0         # MySQL
+# dmPython              # 达梦 DM8：需在装有达梦驱动的环境中安装，取消注释后 pip install
