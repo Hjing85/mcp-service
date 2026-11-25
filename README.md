@@ -166,4 +166,11 @@ def register(mcp):
 - **密钥安全**：API Key 全部走环境变量（`.env`），不要提交到仓库。
 
 ## 本地Agent 添加连接器和运行效果
-
+1.创建连接器：
+   https://github.com/huangjing85318/mcp-service/blob/master/1.png
+2.创建技能,技能文件：SKILL.md
+   https://github.com/huangjing85318/mcp-service/blob/master/3.png
+3.使用技能查询：
+   https://github.com/huangjing85318/mcp-service/blob/master/2.png
+## 商务意向
+https://www.cpwip.com
