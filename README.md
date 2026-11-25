@@ -161,6 +161,9 @@ def register(mcp):
 ## 生产部署建议
 
 - **鉴权**：公网部署时在 Nginx/Caddy 反向代理层加 HTTPS；MCP 数据访问用服务端签发的公共 Key（`/admin` 管理）。
-- **HTTPS**：远程平台（Dify/Coze）接入要求公网 HTTPS，建议 `https://mcp.example.com/mcp`。
+- **HTTPS**：远程平台（Dify/Coze）接入要求公网 HTTPS，建议 `https://127.0.0.1/sse`。
 - **Docker**：`uvicorn` 已包含在依赖中，FastMCP 底层基于 Starlette/ASGI，可容器化部署。
 - **密钥安全**：API Key 全部走环境变量（`.env`），不要提交到仓库。
+
+## 本地Agent 添加连接器和运行效果
+
