@@ -167,10 +167,16 @@ def register(mcp):
 
 ## 本地Agent 添加连接器和运行效果
 1.创建连接器：
-   https://github.com/huangjing85318/mcp-service/blob/master/1.png
+<p align="center">
+  <img src="https://github.com/huangjing85318/mcp-service/blob/master/1.png" alt="创建连接器">
+</p>
 2.创建技能,技能文件：SKILL.md
-   https://github.com/huangjing85318/mcp-service/blob/master/3.png
+<p align="center">
+  <img src="https://github.com/huangjing85318/mcp-service/blob/master/3.png" alt="创建技能">
+</p>
 3.使用技能查询：
-   https://github.com/huangjing85318/mcp-service/blob/master/2.png
+<p align="center">
+  <img src="https://github.com/huangjing85318/mcp-service/blob/master/2.png" alt="创建技能">
+</p>
 ## 商务意向
 https://www.cpwip.com
