@@ -174,9 +174,12 @@ def register(mcp):
 <p align="center">
   <img src="https://github.com/huangjing85318/mcp-service/blob/master/3.png" alt="创建技能">
 </p>
-3.使用技能查询：
+3.使用技能查询、添加账号：
 <p align="center">
-  <img src="https://github.com/huangjing85318/mcp-service/blob/master/2.png" alt="创建技能">
+  <img src="https://github.com/huangjing85318/mcp-service/blob/master/2.png" alt="查询数据">
+</p>
+<p align="center">
+  <img src="https://github.com/huangjing85318/mcp-service/blob/master/4.png" alt="创建账号">
 </p>
 ## 商务意向
 https://www.cpwip.com
